@@ -3,7 +3,7 @@ from src.predict import predict_spam
 
 if __name__ == "__main__":
     # Train the model (uncomment if needed)
-    # train_main()
+    train_main()
     
     # Predict on a new email
     new_email = """
