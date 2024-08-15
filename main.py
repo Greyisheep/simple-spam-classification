@@ -1,9 +1,9 @@
-from src.train import main as train_main
+from src.train import main
 from src.predict import predict_spam
 
 if __name__ == "__main__":
     # Train the model (uncomment if needed)
-    train_main()
+    main()
     
     # Predict on a new email
     new_email = """
